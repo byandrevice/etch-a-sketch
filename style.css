@@ -1,0 +1,22 @@
+#parentContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+#buttonContainer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 8px;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    width: 960px;
+    gap: 0;
+}
+
+.myClass {
+    aspect-ratio: 1;
+    border: 1px solid black;
+}
